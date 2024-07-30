@@ -87,3 +87,76 @@ body {
 .center {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  #header h1 {
+    font-size: 1.25rem;
+  }
+
+  #user-input {
+    padding: 0.75rem;
+    max-width: 100%;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  #user-input label {
+    font-size: 0.65rem;
+  }
+
+  #user-input input {
+    font-size: 0.9rem;
+  }
+
+  #result {
+    padding: 0.5rem;
+    border-spacing: 0.5rem;
+  }
+
+  #result thead {
+    font-size: 0.6rem;
+  }
+
+  #result tbody {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #header img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  #header h1 {
+    font-size: 1rem;
+  }
+
+  #user-input {
+    padding: 0.5rem;
+    max-width: 100%;
+  }
+
+  #user-input label {
+    font-size: 0.6rem;
+  }
+
+  #user-input input {
+    font-size: 0.85rem;
+  }
+
+  #result {
+    padding: 0.5rem;
+    border-spacing: 0.25rem;
+  }
+
+  #result thead {
+    font-size: 0.55rem;
+  }
+
+  #result tbody {
+    font-size: 0.7rem;
+  }
+}
